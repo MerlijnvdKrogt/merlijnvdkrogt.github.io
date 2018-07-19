@@ -1,0 +1,68 @@
+body{
+background-color: black;
+background-image: url("wooden-plates.jpg");	
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+font-family: 'Julee', cursive;
+
+}
+
+.card {
+	display: inline-block;
+margin: 20px;
+
+	border-color: rgba(209,165,139,0.5);
+	background-color:rgba(209,165,139,0.5);
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
+
+.btn{
+	background-color: rgba(209,200,139,0.7);
+	border-color: rgba(209,165,139,0.7);
+	color: black;
+	box-shadow: none;
+}
+.btn:hover{
+	background-color: rgba(195,200,139,0.9);
+	border-color: rgba(209,200,139,0.5);
+}
+.btn:focus{
+	background-color: grey;
+	border-color: white;
+	box-shadow: none;
+}
+.btn:active{
+	background-color: grey;
+	border-color: white;
+	box-shadow: none;
+}
+a{
+	color: black;
+}
+a:hover{
+	color:grey;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin-bottom: : 40;
+}
+footer {
+	
+	
+	color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  
+}
+.row{
+	align-items: center;
+}
